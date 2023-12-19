@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .element{
+            color: coral;
+        }
+    </style>
+    <h1 class="  element" onclick="this.innerText = ' amar lover nai but banabo'">
+        Saidee is a bet  boy
+
+    </h1>
+    <h1>This not confused anymore</h1>
+    <script>
+        const myObj = {
+            name : "kiddus",
+            getfullName:function(){
+                console.log(this);
+                return "Mr." + this.name ;
+            }
+       
+
+        }
+ //       myObj.getfullName();
+
+   const anotherObj = {
+    name: "biddut ali" ,
+
+   }
+   setTimeout(function{
+    console.log(this);
+   }, 1000)
+//    anotherObj.getfullName = myObj.getfullName;
+//    console.log(anotherObj.getfullName);
+//    anotherObj.getfullName();
+//    myObj.getfullName();
+
+
+function add( a ,b){
+    console.log(this);
+    return a+b;
+
+}
+add();
+anotherObj.sum = add;
+anotherObj.sum();
+
+    </script>
+    
+</body>
+</html>

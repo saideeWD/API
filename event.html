@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li onclick="this.innerText='Rokib balo bashi urme beacuse it is  big woman , She is white color ,  '">Rokibe lover VS Saidee Hasan</li>
+        <li onclick="this.innerText = ' ami kiss  korbo misty urmy '">Quam dolorem libero eius.</li>
+        <li onclick="alert('hello misty urme sima sadiya akhi tahaniya thamena riya ')">Corrupti amet quia quaerat?</li>
+        <li onclick="itemClackHandler(event)">Quae reprehenderit exercitationem ut.</li>
+        <li id="last-person">Shmantha khan</li>
+    </ul>
+
+    <script>
+        function itemClackHandler(event){ 
+            console.log(event.target.innerText)
+
+        }
+        document.getElementById('last-person').addEventListener('click', itemClackHandler)
+    </script>
+</body>
+</html>
